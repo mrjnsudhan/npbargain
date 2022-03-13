@@ -8,3 +8,13 @@ before_install:
 
 script:
   - docker run -e CI=true maharjansudhan/npbargain npm run test -- --coverage
+
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-1"
+  app: "npbargain"
+  env: "Npbargain-env"
+  bucket_name: "elasticbeanstalk-us-east-1-780071867673"
+  bucket_path: "npbargain"
+  on:
+    branch: master
