@@ -13,7 +13,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "npbargain"
-  env: "Npbargain-env"
+  env: "Npbargain-env-1"
   bucket_name: "elasticbeanstalk-us-east-1-780071867673"
   bucket_path: "npbargain"
   on:
