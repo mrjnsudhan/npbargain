@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Changed in feature branch Edit <code>src/App.js</code> and save to reload.
+          My first app in AWS <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
